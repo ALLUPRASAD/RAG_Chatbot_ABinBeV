@@ -3,17 +3,49 @@
 ## Project Overview
 This project involves creating a Q&A chatbot that leverages a vector store and a Language Model (LLM) Trubo3.5 to provide accurate responses to user queries. The chatbot utilizes Ubuntu documentation in markdown format as its knowledge base.
 
-### Part 1: Create Vector Store
+### 1: Create Vector Store
 - Use provided Ubuntu documentation.
 - Implement a local vector store Faiss.
 
-### Part 2: Build Chatbot with Vector Store & LLM
-- Integrate vector store with chatbot.
+### 2: Build Chatbot with Vector Store & LLM
+ Integrate vector store with chatbot using **LangChain retrievers**.
 - Implement query interpretation and response generation.
-- Use a free OpenAI endpoint for LLM querying.
+- Use a free OpenAI endpoint for LLM querying (**GPT-3.5/GPT-4**).
+- Implement structured logging and proper exception handling.
+  
+### 3.Project Root
+├── 📄 requirements.txt
+├── 📄 Dockerfile
+├── 📄 README.md
+├── 📄 .gitignore
+├── 📂 data
+│   ├── 📂 logs
+│   │   └── 📄 chatbot.log
+│   ├── 📂 ubuntu-docs
+│   │   ├── 📄 .DS_Store
+│   │   ├── 📄 .gitignore
+│   │   └── 📄 .sass-lint.yml
+├── 📂 src
+│   ├── 📄 .DS_Store
+│   ├── 📄 requirements.txt
+│   ├── 📂 chatbot
+│   │   ├── 📄 __init__.py
+│   │   └── 📄 bot.py
+│   ├── 📂 logging_config
+│   │   └── 📄 logger_config.py
+│   ├── 📂 retriever
+│   │   └── 📄 retriever.py
+│   ├── 📂 vector_store
+│   │   └── 📄 ingest.py
+│   ├── 📂 model
+│   │   └── 📄 model.py
+│   ├── 📂 faiss_index
+│   │   ├── 📄 index.faiss
+│   │   └── 📄 index.pkl
+│   └── 📄 app.py
 
 
-## How to Run
+##4 How to Run
 
 ### Step 1: Install Dependencies
 ```bash
