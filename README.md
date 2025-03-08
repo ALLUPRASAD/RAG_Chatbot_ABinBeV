@@ -14,39 +14,39 @@ This project involves creating a Q&A chatbot that leverages a vector store and a
 - Implement structured logging and proper exception handling.
   
 ### 3.Project Directory Structure
-## 
-````plaintext
-Project Root
-├── requirements.txt
-├── Dockerfile
-├── README.md
-├── .gitignore
-├── data
-│   ├── logs
-│   │   └── chatbot.log
-│   ├── ubuntu-docs
-│   │   ├── .DS_Store
-│   │   ├── .gitignore
-│   │   └── .sass-lint.yml
-├── src
-│   ├── .DS_Store
-│   ├── requirements.txt
-│   ├── chatbot
-│   │   ├── __init__.py
-│   │   └── bot.py
-│   ├── logging_config
-│   │   └── logger_config.py
-│   ├── retriever
-│   │   └── retriever.py
-│   ├── vector_store
-│   │   └── ingest.py
-│   ├── model
-│   │   └── model.py
-│   ├── faiss_index
-│   │   ├── index.faiss
-│   │   └── index.pkl
-│   └── app.py
-````plaintext
+
+       ````plaintext
+       Project Root
+       ├── requirements.txt
+       ├── Dockerfile
+       ├── README.md
+       ├── .gitignore
+       ├── data
+       │   ├── logs
+       │   │   └── chatbot.log
+       │   ├── ubuntu-docs
+       │   │   ├── .DS_Store
+       │   │   ├── .gitignore
+       │   │   └── .sass-lint.yml
+       ├── src
+       │   ├── .DS_Store
+       │   ├── requirements.txt
+       │   ├── chatbot
+       │   │   ├── __init__.py
+       │   │   └── bot.py
+       │   ├── logging_config
+       │   │   └── logger_config.py
+       │   ├── retriever
+       │   │   └── retriever.py
+       │   ├── vector_store
+       │   │   └── ingest.py
+       │   ├── model
+       │   │   └── model.py
+       │   ├── faiss_index
+       │   │   ├── index.faiss
+       │   │   └── index.pkl
+       │   └── app.py
+
 
 
 ##4 How to Run
