@@ -1,35 +1,24 @@
- Q&A Chatbot (Basic RAG)
+# Q&A Chatbot (Basic RAG)
 
 ## Project Overview
-This project involves creating a Q&A chatbot that leverages a vector store and a Language Model (LLM) to provide accurate responses to user queries. The chatbot utilizes Ubuntu documentation in markdown format as its knowledge base.
-
-## Main Tasks (100 Marks)
+This project involves creating a Q&A chatbot that leverages a vector store and a Language Model (LLM) Trubo3.5 to provide accurate responses to user queries. The chatbot utilizes Ubuntu documentation in markdown format as its knowledge base.
 
 ### Part 1: Create Vector Store
 - Use provided Ubuntu documentation.
-- Implement a local vector store (Faiss or ChromaDB preferred).
-- Use OS Embeddings models from Hugging Face.
+- Implement a local vector store Faiss.
 
 ### Part 2: Build Chatbot with Vector Store & LLM
 - Integrate vector store with chatbot.
 - Implement query interpretation and response generation.
 - Use a free OpenAI endpoint for LLM querying.
 
-## Bonus Tasks
-- Implement a FastAPI endpoint (`app.py`) for local deployment (50 marks).
-- Deploy the chatbot using Docker and test via Swagger (50 marks).
 
-## Requirements
-- Utilize provided input files and demo video.
-- Implement modular, structured, and maintainable code.
-- Include logging for different levels.
-- Implement proper error and exception handling.
-- Optimize document parsing and chunking strategy.
+## How to Run
 
-## General Guidelines
-- Push code to a public GitHub repository with commit-wise grouping.
-- Create an `.md` file with outcome screenshots.
-- Share a working demo video as the final deliverable.
+### Step 1: Install Dependencies
+```bash
+pip install -r requirements.txt
+
 
 ## How to Run
 
