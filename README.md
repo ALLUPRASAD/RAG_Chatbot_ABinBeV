@@ -9,8 +9,8 @@ This project involves creating a Q&A chatbot that leverages a vector store and a
 
 ### 2: Build Chatbot with Vector Store & LLM
  Integrate vector store with chatbot using **LangChain retrievers**.
-- Implement query interpretation and response generation.
-- Use a free OpenAI endpoint for LLM querying (**GPT-3.5/GPT-4**).
+- Implement query interpretation,context fetching and response generation.
+- Use a OpenAI endpoint for LLM querying (**GPT-3.5/GPT-4**).
 - Implement structured logging and proper exception handling.
   
 ### 3.Project Directory Structure
