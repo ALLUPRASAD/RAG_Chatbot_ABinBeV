@@ -77,8 +77,8 @@ docker run -d -p 8000:8000 --name qna_chatbot_container qna-chatbot
 ### Step 4: Access API
 - Open `http://localhost:8000/docs` in your browser to test via Swagger UI.
 #### 5 API Request Example:
-<img src="data//assets/a.png" alt="API Input" width="512"/>
+<img src="data//assets/a.png" alt="API Input" width="640"/>
 
 #### 6 API Response Example:
-<img src="data/assets/b.png" alt="API Response" width="512"/>
+<img src="data/assets/b.png" alt="API Response" width="640"/>
 
