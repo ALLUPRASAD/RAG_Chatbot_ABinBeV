@@ -82,5 +82,5 @@ docker run -d -p 8000:8000 --name qna_chatbot_container qna-chatbot
 
 #### 6 API Response Example:
 
-<img src="data/assets/b.png" alt="API Response" width="840"/>
+       <img src="data/assets/b.png" alt="API Response" width="840"/>
 
