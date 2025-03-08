@@ -13,8 +13,8 @@ This project involves creating a Q&A chatbot that leverages a vector store and a
 - Use a free OpenAI endpoint for LLM querying (**GPT-3.5/GPT-4**).
 - Implement structured logging and proper exception handling.
   
-### 3.Project Root
-## Directory Structure
+### 3.Project Directory Structure
+## 
 ````plaintext
 Project Root
 ├── requirements.txt
@@ -46,7 +46,7 @@ Project Root
 │   │   ├── index.faiss
 │   │   └── index.pkl
 │   └── app.py
-
+````plaintext
 
 
 ##4 How to Run
