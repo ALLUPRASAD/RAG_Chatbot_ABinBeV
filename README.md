@@ -15,7 +15,7 @@ This project involves creating a Q&A chatbot that leverages a vector store and a
   
 ### 3.Project Directory Structure
 
-       ````plaintext
+
        Project Root
        ├── requirements.txt
        ├── Dockerfile
@@ -49,7 +49,7 @@ This project involves creating a Q&A chatbot that leverages a vector store and a
 
 
 
-##4 How to Run
+### 4 How to Run
 
 ### Step 1: Install Dependencies
 ```bash
