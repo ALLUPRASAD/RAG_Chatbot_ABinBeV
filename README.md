@@ -1,4 +1,4 @@
-# Q&A Chatbot (Basic RAG)
+# Q&A Chatbot using RAG
 
 ## Project Overview
 This project involves creating a Q&A chatbot that leverages a vector store and a Language Model (LLM) Trubo3.5 to provide accurate responses to user queries. The chatbot utilizes Ubuntu documentation in markdown format as its knowledge base.
